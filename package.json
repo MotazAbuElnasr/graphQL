@@ -5,7 +5,8 @@
   "author": "Tyler Reckart <tyler.reckart@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon ./server.js"
+    "start": "nodemon ./server.js",
+    "debug": "nodemon  --inspect ./server.js"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
